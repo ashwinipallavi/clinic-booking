@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Plus - Hospital Appointment Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <i class="fas fa-heartbeat"></i> MediCare<span>Plus</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">🏥 Trusted Healthcare Since 2010</span>
+            <h1>Your Health Is Our <br><span class="highlight">Top Priority</span></h1>
+            <p>Book appointments with top specialists in minutes. Quality care, right when you need it.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                <a href="#services" class="btn btn-outline">Our Services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><h3>50+</h3><p>Doctors</p></div>
+                <div class="stat"><h3>10K+</h3><p>Patients</p></div>
+                <div class="stat"><h3>15+</h3><p>Specialties</p></div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Doctor">
+            <div class="floating-card card1">
+                <i class="fas fa-check-circle"></i>
+                <span>Appointment Confirmed!</span>
+            </div>
+            <div class="floating-card card2">
+                <i class="fas fa-star"></i>
+                <span>4.9 Rating</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-title">
+            <span class="section-badge">What We Offer</span>
+            <h2>Our Medical Services</h2>
+            <p>Comprehensive healthcare solutions for you and your family</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-brain"></i></div>
+                <h3>Neurology</h3>
+                <p>Expert care for brain, spine, and nervous system disorders.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                <h3>Cardiology</h3>
+                <p>Advanced heart care with state-of-the-art diagnostics.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bone"></i></div>
+                <h3>Orthopedics</h3>
+                <p>Treatment for bones, joints, muscles, and sports injuries.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-baby"></i></div>
+                <h3>Pediatrics</h3>
+                <p>Specialized healthcare for infants, children, and teens.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-eye"></i></div>
+                <h3>Ophthalmology</h3>
+                <p>Complete eye care from routine checkups to surgery.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tooth"></i></div>
+                <h3>Dentistry</h3>
+                <p>Full dental care including cosmetic and restorative treatments.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors-section">
+        <div class="section-title">
+            <span class="section-badge">Meet Our Team</span>
+            <h2>Expert Doctors</h2>
+            <p>Highly qualified specialists dedicated to your wellbeing</p>
+        </div>
+        <div class="doctors-grid">
+            <div class="doctor-card">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Dr. Arjun Mehta">
+                    <div class="doctor-badge">⭐ 4.9</div>
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Arjun Mehta</h3>
+                    <span class="specialty">Cardiologist</span>
+                    <p>15+ years experience in cardiovascular medicine and surgery.</p>
+                    <div class="doctor-footer">
+                        <span><i class="fas fa-clock"></i> Mon-Fri</span>
+                        <button class="btn-book" onclick="selectDoctor('Dr. Arjun Mehta', 'Cardiology')">Book</button>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Dr. Priya Sharma">
+                    <div class="doctor-badge">⭐ 4.8</div>
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Priya Sharma</h3>
+                    <span class="specialty">Neurologist</span>
+                    <p>Specialist in brain disorders, epilepsy, and stroke management.</p>
+                    <div class="doctor-footer">
+                        <span><i class="fas fa-clock"></i> Tue-Sat</span>
+                        <button class="btn-book" onclick="selectDoctor('Dr. Priya Sharma', 'Neurology')">Book</button>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Dr. Rahul Verma">
+                    <div class="doctor-badge">⭐ 4.7</div>
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Rahul Verma</h3>
+                    <span class="specialty">Orthopedic Surgeon</span>
+                    <p>Expert in joint replacement, sports injuries, and spine care.</p>
+                    <div class="doctor-footer">
+                        <span><i class="fas fa-clock"></i> Mon-Thu</span>
+                        <button class="btn-book" onclick="selectDoctor('Dr. Rahul Verma', 'Orthopedics')">Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="section-title">
+            <span class="section-badge">Easy Booking</span>
+            <h2>Book an Appointment</h2>
+            <p>Fill in the details below and we'll confirm your slot</p>
+        </div>
+        <div class="booking-container">
+            <div class="booking-info">
+                <h3>Why Choose Us?</h3>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-check"></i> Instant appointment confirmation</li>
+                    <li><i class="fas fa-check"></i> No waiting in long queues</li>
+                    <li><i class="fas fa-check"></i> 50+ specialist doctors</li>
+                    <li><i class="fas fa-check"></i> Online & in-person consultations</li>
+                    <li><i class="fas fa-check"></i> 24/7 emergency support</li>
+                    <li><i class="fas fa-check"></i> Insurance accepted</li>
+                </ul>
+                <div class="emergency-box">
+                    <i class="fas fa-ambulance"></i>
+                    <div>
+                        <h4>Emergency?</h4>
+                        <p>Call us immediately</p>
+                        <strong>+1 (800) 911-CARE</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="booking-form">
+                <div id="booking-success" class="success-message" style="display:none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Appointment Booked!</h3>
+                    <p id="success-details"></p>
+                    <button class="btn btn-primary" onclick="resetForm()">Book Another</button>
+                </div>
+                <form id="appointmentForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" id="patientName" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 (555) 000-0000" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" id="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Age</label>
+                            <input type="number" id="age" placeholder="Your age" min="1" max="120" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Department</label>
+                            <select id="department" required>
+                                <option value="">Select Department</option>
+                                <option value="Cardiology">Cardiology</option>
+                                <option value="Neurology">Neurology</option>
+                                <option value="Orthopedics">Orthopedics</option>
+                                <option value="Pediatrics">Pediatrics</option>
+                                <option value="Ophthalmology">Ophthalmology</option>
+                                <option value="Dentistry">Dentistry</option>
+                                <option value="General Medicine">General Medicine</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Doctor</label>
+                            <select id="doctor" required>
+                                <option value="">Select Doctor</option>
+                                <option value="Dr. Arjun Mehta">Dr. Arjun Mehta</option>
+                                <option value="Dr. Priya Sharma">Dr. Priya Sharma</option>
+                                <option value="Dr. Rahul Verma">Dr. Rahul Verma</option>
+                                <option value="Dr. Sneha Patel">Dr. Sneha Patel</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Appointment Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Time Slot</label>
+                            <select id="time" required>
+                                <option value="">Select Time</option>
+                                <option value="9:00 AM">9:00 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Symptoms / Notes</label>
+                        <textarea id="symptoms" placeholder="Describe your symptoms or reason for visit..." rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-calendar-check"></i> Confirm Appointment
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="section-title">
+            <span class="section-badge">Patient Reviews</span>
+            <h2>What Patients Say</h2>
+            <p>Real stories from real patients</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The booking process was so easy! Dr. Mehta was incredibly professional and thorough. Highly recommend MediCare Plus!"</p>
+                <div class="patient">
+                    <div class="patient-avatar">S</div>
+                    <div><h4>Suresh Kumar</h4><span>Cardiac Patient</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Got an appointment within hours! Dr. Priya diagnosed my condition accurately. The staff is very caring and supportive."</p>
+                <div class="patient">
+                    <div class="patient-avatar">A</div>
+                    <div><h4>Ananya Singh</h4><span>Neurology Patient</span></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"World-class facilities and extremely knowledgeable doctors. My knee surgery was a complete success. Thank you MediCare Plus!"</p>
+                <div class="patient">
+                    <div class="patient-avatar">R</div>
+                    <div><h4>Ravi Patel</h4><span>Orthopedic Patient</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-title">
+            <span class="section-badge">Get In Touch</span>
+            <h2>Contact Us</h2>
+            <p>We're here to help 24/7</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>456 Health Avenue, Medical District, New York, NY 10001</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Phone</h3>
+                <p>+1 (800) 911-CARE<br>+1 (555) 234-5678</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>care@medicareplus.com<br>appointments@medicareplus.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-clock"></i>
+                <h3>Hours</h3>
+                <p>Mon-Sat: 8AM - 8PM<br>Emergency: 24/7</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-heartbeat"></i> MediCare<span>Plus</span>
+            </div>
+            <p class="footer-tagline">Your health, our mission.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 MediCare Plus. All rights reserved. | DevOps Project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
