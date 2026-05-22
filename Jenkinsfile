@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/clinic-booking.git'
+                    url: 'https://github.com/ashwinipallavi/clinic-booking.git'
             }
         }
 
