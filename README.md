@@ -26,7 +26,6 @@ Built as part of a DevOps course project at **The National Institute of Engineer
 |---|---|
 | Python | 3.11 |
 | FastAPI | 0.115.0 |
-| Uvicorn | 0.30.6 |
 | Motor (async MongoDB driver) | 3.5.1 |
 | Pydantic v2 | 2.8.2 |
 | Jinja2 | 3.1.2 |
@@ -39,11 +38,6 @@ Built as part of a DevOps course project at **The National Institute of Engineer
 | JavaScript | Vanilla ES6+ |
 | Icons | Lucide Icons (CDN) |
 | Font | Inter (Google Fonts) |
-
-### Database
-| Technology | Version |
-|---|---|
-| MongoDB | 7.0 |
 
 ### DevOps
 | Tool | Purpose |
@@ -146,7 +140,6 @@ pytest
 ```
 
 ---
-
 ## 📁 Project Structure
 
 ```
@@ -165,22 +158,28 @@ clinic-booking/
 ## 📸 Screenshots
 
 ### Home Page
+
 <img width="1913" height="1079" alt="Screenshot 2026-05-22 155457" src="https://github.com/user-attachments/assets/584a87eb-dd74-448d-bd9e-a523cc7f6c47" />
 
 
 ### Medical Services
+
 <img width="1919" height="1079" alt="Screenshot 2026-05-22 155507" src="https://github.com/user-attachments/assets/66a29836-1689-4520-909d-307bb2d75834" />
 
 
 ### Expert Doctors
 
 <img width="1919" height="1061" alt="Screenshot 2026-05-22 155532" src="https://github.com/user-attachments/assets/e46806ee-f2d5-4446-ab02-c26effdd651b" />
+
 <img width="1919" height="1073" alt="Screenshot 2026-05-22 155600" src="https://github.com/user-attachments/assets/e3385b55-ecb1-42c1-98b6-4404a044f680" />
 
+
 ### Appointment Booking Form
+
 <img width="1919" height="1079" alt="Screenshot 2026-05-22 155547" src="https://github.com/user-attachments/assets/058f7d5c-10d6-4bda-84dd-53eb083ee66c" />
 
 ### Booking Confirmation
+
 <img width="985" height="508" alt="Screenshot 2026-05-22 155648" src="https://github.com/user-attachments/assets/7faa12c3-b6de-46b8-94f4-c2a6e2282a8b" />
 
 ### Contact Page
