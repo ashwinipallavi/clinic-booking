@@ -165,7 +165,7 @@ clinic-booking/
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home]("C:\Users\User\OneDrive\画像\Screenshots\Screenshot 2026-05-22 155457.png")
 
 ### Medical Services
 ![Services](screenshots/services.png)
@@ -185,18 +185,16 @@ clinic-booking/
 ### Contact Page
 ![Contact](screenshots/contact.png)
 
-> 📌 Add your screenshots to a `screenshots/` folder in the repo with the filenames above.
+
 
 ---
 
 ## 👩‍💻 Developer
 
-**Pallavi S E** — 4NI24CS421  
+**Pallavi S E**  
 Dept. of Computer Science & Engineering  
 The National Institute of Engineering, Mysuru
 
-**Guide:** Mr. Joyan Prajwal Alvares, Assistant Professor, Dept. of CS&E, NIE Mysuru
 
----
 
 > *"Your Health Is Our Top Priority"* — MediCare Plus
