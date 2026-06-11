@@ -165,7 +165,7 @@ clinic-booking/
 ## 📸 Screenshots
 
 ### Home Page
-![Home]("C:\Users\User\OneDrive\画像\Screenshots\Screenshot 2026-05-22 155457.png")
+"C:\Users\User\OneDrive\画像\Screenshots\Screenshot 2026-05-22 155457.png"
 
 ### Medical Services
 ![Services](screenshots/services.png)
